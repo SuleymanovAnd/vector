@@ -24,8 +24,7 @@ if (operation  == "add"){
     length();
 } else if (operation == "normalize"){
     normalize ();
-}
-
+} else {std::cout << "Unknown operation";}
 }
 
 
